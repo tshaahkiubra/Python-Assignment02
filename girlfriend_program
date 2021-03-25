@@ -1,0 +1,8 @@
+dist=int(input("enter the distance to reach girlfriend's home"))
+c=5
+num=0
+while dist>0:
+ num=num+(dist//c)
+ dist=dist-c*(dist//c)
+ i=i-1
+print(num)
